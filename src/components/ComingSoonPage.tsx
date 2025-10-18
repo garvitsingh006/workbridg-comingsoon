@@ -215,8 +215,35 @@ export default function ComingSoonPage() {
 
       {/* Footer */}
       <footer className="py-10 text-center text-sm bg-black text-white w-full relative z-10">
-        <p>© {new Date().getFullYear()} WorkBridg.</p>
-      </footer>
+  <p>© {new Date().getFullYear()} WorkBridg.</p>
+  <div className="mt-3 flex flex-wrap justify-center gap-4 text-gray-300">
+    <a 
+      href="https://merchant.razorpay.com/policy/RUrS8hF4stioGL/shipping" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="hover:text-white underline"
+    >
+      Shipping Policy
+    </a>
+    <a 
+      href="https://merchant.razorpay.com/policy/RUrS8hF4stioGL/terms" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="hover:text-white underline"
+    >
+      Terms & Conditions
+    </a>
+    <a 
+      href="https://merchant.razorpay.com/policy/RUrS8hF4stioGL/refund" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="hover:text-white underline"
+    >
+      Cancellation & Refunds
+    </a>
+  </div>
+</footer>
+
 
       {/* Popup Form */}
       {open && (

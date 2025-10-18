@@ -1,4 +1,4 @@
-import ComingSoonPage from './components/ComingSoonPage'
+import ComingSoonPage from './components/ComingSoonPage';
 import { Toaster } from 'react-hot-toast';
 
 function App() {
