@@ -55,7 +55,6 @@ function App() {
                 <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
                 <ul className="space-y-2">
                   <li><a href="/" className="text-gray-400 hover:text-white transition">Home</a></li>
-                  <li><a href="/contact" className="text-gray-400 hover:text-white transition">Contact Us</a></li>
                   <li>
                     <button 
                       onClick={() => setIsWaitlistOpen(true)}
