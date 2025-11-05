@@ -38,7 +38,7 @@ function App() {
         {/* Footer */}
         <footer className="py-8 bg-black text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="col-span-1 md:col-span-2">
                 <h3 className="text-xl font-bold mb-4">WorkBridg</h3>
                 <p className="text-gray-400">
@@ -64,14 +64,6 @@ function App() {
                       Join Waitlist
                     </button>
                   </li>
-                </ul>
-              </div>
-              
-              <div>
-                <h4 className="text-lg font-semibold mb-4">Legal</h4>
-                <ul className="space-y-2">
-                  <li><a href="/terms" className="text-gray-400 hover:text-white transition">Terms & Conditions</a></li>
-                  <li><a href="/refund-policy" className="text-gray-400 hover:text-white transition">Refund & Cancellation Policy</a></li>
                 </ul>
               </div>
             </div>

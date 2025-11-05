@@ -125,7 +125,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="text" 
                     placeholder="Full Name" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={freelancerData.name} 
                     onChange={(e) => handleChange("freelancer", "name", e.target.value)} 
                     required 
@@ -135,7 +135,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="email" 
                     placeholder="Email Address" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={freelancerData.email} 
                     onChange={(e) => handleChange("freelancer", "email", e.target.value)} 
                     required 
@@ -145,7 +145,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="text" 
                     placeholder="Field of Work" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={freelancerData.field} 
                     onChange={(e) => handleChange("freelancer", "field", e.target.value)} 
                     required 
@@ -155,7 +155,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="text" 
                     placeholder="Years of Experience" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={freelancerData.experience} 
                     onChange={(e) => handleChange("freelancer", "experience", e.target.value)} 
                     required 
@@ -165,7 +165,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="tel" 
                     placeholder="Phone Number" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={freelancerData.phone} 
                     onChange={(e) => handleChange("freelancer", "phone", e.target.value)} 
                     required 
@@ -175,7 +175,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="url" 
                     placeholder="Portfolio/Website (Optional)" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={freelancerData.portfolio} 
                     onChange={(e) => handleChange("freelancer", "portfolio", e.target.value)} 
                   />
@@ -193,7 +193,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="text" 
                     placeholder="Full Name" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={clientData.name} 
                     onChange={(e) => handleChange("client", "name", e.target.value)} 
                     required 
@@ -203,7 +203,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="email" 
                     placeholder="Email Address" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={clientData.email} 
                     onChange={(e) => handleChange("client", "email", e.target.value)} 
                     required 
@@ -213,7 +213,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="text" 
                     placeholder="Company Name" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={clientData.company} 
                     onChange={(e) => handleChange("client", "company", e.target.value)} 
                     required 
@@ -223,7 +223,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="text" 
                     placeholder="Years in Business" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={clientData.years} 
                     onChange={(e) => handleChange("client", "years", e.target.value)} 
                     required 
@@ -233,7 +233,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="tel" 
                     placeholder="Phone Number" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={clientData.phone} 
                     onChange={(e) => handleChange("client", "phone", e.target.value)} 
                     required 
@@ -243,7 +243,7 @@ export default function WaitlistForm({ onClose }: WaitlistFormProps) {
                   <input 
                     type="url" 
                     placeholder="Company Website (Optional)" 
-                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition"
+                    className="w-full border border-gray-200 rounded-xl p-3 focus:ring-2 focus:ring-black focus:border-transparent transition placeholder-gray-400 text-gray-900 bg-white"
                     value={clientData.portfolio} 
                     onChange={(e) => handleChange("client", "portfolio", e.target.value)} 
                   />
